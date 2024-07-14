@@ -1,0 +1,49 @@
+@media screen and (min-width: 765px) {
+  section {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  /* ----- NAVBAR ----- */
+  .navbar-menu {
+    border-radius: 20px 0 0 0;
+  }
+
+  
+  /* ----- EXPERIENCE ----- */
+  .experience-page {
+    margin: 50px 0;
+  }
+  .experience-title {
+
+    width: 60%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* ----- COUNTRIES ----- */
+  .countries {
+    align-items: normal;
+  }
+
+  .container-countries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* ----- FOOTER ----- */
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 50px;
+  }
+}
